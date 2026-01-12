@@ -1,13 +1,12 @@
 import {createApi,fetchBaseQuery} from '@reduxjs/toolkit/query/react'
 
 const cryptoApiHeaders={
-  'x-rapidapi-key': 'e8762a35e9msh8dd83724c86623ep1baedcjsnb1781d32a660',
-  'x-rapidapi-host': 'bing-search-apis.p.rapidapi.com'
+  'x-rapidapi-key': 'f87e4e951bmsh51457290d04f922p1053c8jsnfd8e8334811f',
+  'x-rapidapi-host': 'google-news13.p.rapidapi.com'
 }
 
-const axios = require('axios');
 
-const baseUrl='https://bing-search-apis.p.rapidapi.com/api/rapid/web_search?keyword=how-to-use-excel-for-free&page=0&size=30';
+const baseUrl='https://google-news13.p.rapidapi.com/business?lr=en-US';
 
 
 const createRequest=(url)=>({url,headers:cryptoApiHeaders});
